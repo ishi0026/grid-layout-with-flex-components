@@ -4,15 +4,19 @@ body {
   }
 
 .emojis {
-    display:grid;
+    display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-}
+    gap: 20px;
+  }
   
 .emoji {
+    display: flex;
+    flex-direction: column;
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
+    margin: auto 0px;
   }
   
 .emoji h2 {
@@ -30,4 +34,7 @@ body {
   
 .icon {
     font-size: 4rem;
+    order: -1;
+    /* －1で二行目に来る…なぜ？ */
+    align-self: center;
   }
