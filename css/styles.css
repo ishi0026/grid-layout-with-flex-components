@@ -16,7 +16,7 @@ body {
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
-    margin: auto 0px;
+    margin: auto 0px;/*add margin around card*/
   }
   
 .emoji h2 {
