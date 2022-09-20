@@ -16,7 +16,7 @@ body {
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
-    margin: auto 0px;/*add margin around card*/
+    justify-content: space-between;/*adds same space around cards*/
   }
   
 .emoji h2 {
@@ -34,7 +34,6 @@ body {
   
 .icon {
     font-size: 4rem;
-    order: -1;
-    /* －1で二行目に来る…なぜ？ */
+    order: -1; /* set the icons top proprity  */
     align-self: center;
   }
