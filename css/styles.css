@@ -4,10 +4,10 @@ body {
   }
 
 .emojis {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    display: grid; /*prepare cards in grid display*/
+    grid-template-rows: 1fr 1fr; /*set space between head title and card*/
+    grid-template-columns: 1fr 1fr; /*set cards vertical to horizontal*/
+    gap: 20px;/*set gap between cards*/
   }
   
 .emoji {
