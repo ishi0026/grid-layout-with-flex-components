@@ -18,7 +18,9 @@ body {
     padding: 1rem;
     justify-content: space-between;/*adds same space around cards*/
   }
-  
+  /* Using the space between for flex is aligning the buttons to the bottom however the headings are now misaligned. The solution is to either use margin-top: auto on the button or add flex:1 to the paragraph */
+
+
 .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
